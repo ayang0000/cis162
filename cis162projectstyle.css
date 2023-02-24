@@ -1,0 +1,53 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
+@font-face{
+font-family: 'Nunito Sans', sans-serif;
+}
+
+/* 
+    CIS162
+    Name: A. Yang
+    Date: 2/23/2023
+    File: cis162projectstyle.css
+    Project: 1-3
+*/
+
+/* HTML and Body Styles */
+html {
+    background-color: hsl(215, 43%, 55%)}
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    color: rgb(51, 51, 51);
+    background-color: rgba(16, 239, 239, 0.79);
+    font-size: 1.4em;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+/* Heading Styles */
+h1{
+    font-size: 2.2em;
+    letter-spacing: 0.08em;
+    background-color: rgb(242, 223, 79);
+    font-weight; 400;
+}
+
+/* Navigation Styles */	
+nav{
+    font-size: 1.2em;
+}
+nav > ul {
+    line-height: 1.3em;
+}
+ul{
+    line-height: 1.2em;
+}
+section{
+    
+}
+/* Footer Styles */
+footer{
+    color: hsl(215, 41%, 60%);
+    font: 0.8em
+}
